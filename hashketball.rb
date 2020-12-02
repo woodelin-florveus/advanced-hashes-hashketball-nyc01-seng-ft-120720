@@ -168,6 +168,7 @@ def player_numbers(name)
   new_arr = []
   game_hash.each do |key, value|
     value[:players].each do |play|
+      binding.pry
       if value[:team_name] == name
         new_arr << play[:number]
       end
