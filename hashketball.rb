@@ -180,7 +180,7 @@ end
 def player_numbers(name)
   new_arr = []
   game_hash.each do |key, value|
-    
+
   end
   new_arr
 end
