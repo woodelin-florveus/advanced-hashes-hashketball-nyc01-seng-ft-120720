@@ -159,7 +159,6 @@ end
 def team_names
   new_arr = []
   game_hash.each do |key, value|
-    binding.pry
      new_arr << value[:team_name]
   end
   new_arr
