@@ -181,7 +181,7 @@ def player_numbers(name)
   new_arr = []
   game_hash.each do |key, value|
     if value[:team_name] == name
-
+      new_arr << value[:number]
     end
   end
   new_arr
