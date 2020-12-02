@@ -191,6 +191,7 @@ def big_shoe_rebounds
   num_of_reb = 0
 
   game_hash.each do |key, value|
+    binding.pry
     value[:players].each do |one|
       if one[:shoe] > big_shoe
         big_shoe = one[:shoe]
