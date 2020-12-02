@@ -177,8 +177,6 @@ def player_numbers(name)
   new_arr
 end
 
-
-
 def player_stats(name)
   new_hash = {}
   game_hash.each do |key, value|
