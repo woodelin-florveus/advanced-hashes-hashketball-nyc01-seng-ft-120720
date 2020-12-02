@@ -180,7 +180,9 @@ end
 def player_numbers(name)
   new_arr = []
   game_hash.each do |key, value|
-    binding.pry
+    if value[:team_name] == name
+      
+    end
   end
   new_arr
 end
